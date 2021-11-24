@@ -29,7 +29,7 @@ Une nouvelle version (qui sera *a priori* en grande partie semblable à celle-ci
         {{ correction(True,
         "
         ```python linenums='1'
-        def recherche(tab, n):
+        def recherche(tab: list, n: int) -> int:
             indice_solution = len(tab)
             for i in range(len(tab)):
                 if tab[i] == n:
